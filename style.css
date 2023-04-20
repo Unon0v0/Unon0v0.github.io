@@ -8,7 +8,8 @@
 /* Global styles */
 body {
 	font-family:  serif;
-	font-size: 16px;
+	font-size: 20px;
+	color: #bdae3e;
 	line-height: 1.5;
 		background-color: rgb(62, 81, 28);
 		margin: 0;
@@ -20,7 +21,7 @@ body {
 header {
 	position: relative;
 	color: #aae325;
-	height: 75vh;
+	height: 60vh;
 	margin: auto;
 	padding: 1em;
 	display: flex;
@@ -30,6 +31,7 @@ header {
 	transition: background-color 1s ease-in-out;
 	background: linear-gradient(to bottom, rgba(22, 21, 20, 1) 70%, transparent);
     text-align: center;
+	font-size: larger;
 }
 
 
@@ -47,7 +49,7 @@ nav ul li:last-child {
 }
 
 nav ul li a {
-	color: #fff;
+	color: #decc58;
 	text-decoration: none;
 }
 
@@ -61,7 +63,7 @@ section {
 
 section h2 {
 	font-size: 2em;
-	margin-bottom: 1em;
+	margin-bottom: 0em;
 }
 
 section ul {
@@ -81,21 +83,29 @@ section ul li:last-child {
 
 section ul li a {
 	display: block;
-	border: 1px solid #ccc;
+	
 	padding: 1em;
-	text-align: center;
+	
 	text-decoration: none;
-	color: #333;
+	color: #68562a;
 }
 
 section ul li img {
 	max-width: 100%;
 	height: auto;
+	margin: auto;
 }
 
 footer {
-	background-color: #333;
-	color: #fff;
+	background-color: #2b2319;
+	color: #615d20;
 	padding: 1em;
+	text-align: center;
+}
+.about {
+	border: 2px solid #bdae3e;
+	padding: 1em;
+  }
+.contact{
 	text-align: center;
 }
